@@ -12,4 +12,3 @@ class OrderTests(APITestCase):
         response = self.client.post('/orders', data, format='json')
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(Order.objects.count(), 1)
-        self.assertEqual(Order.objects.get().name, 'DabApps')
