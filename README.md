@@ -1,18 +1,17 @@
 # Omni Latam
 
-This project correspond to e-commerce model business 
+This project corresponds to the business e-commerce model  
 
 ## Decisions
 
-- This project was developed in Python 3.8  with Django  3.2.3
-- The project was ordered in the following modules: Orders, Shipping, Users, Payments
-- For the API  was implemented Django Rest Framework
-- For Asynchronous proccess was implemented Celery
-- For Queue was used RabbitMQ  
-- For API test was used APITestCase from rest_framework.test
+- This project was developed in Python 3.8 with Django 3.2.3
+- The project was structured in the following modules: Orders, Shipments, Users, Payments
+- Django Rest Framework was implemented for the API
+- For the asynchronous process, Celery was implemented
+- RabbitMQ was used for queues
+- For the API test APITestCase from rest_framework.test was used
 
 ## Architecture
-
 
 - Data base  [link](https://drive.google.com/file/d/1-roXGWDPlr0gOjpaf6I1D34nAhykGmfo/view?usp=sharing)
 
