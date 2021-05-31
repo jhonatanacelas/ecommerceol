@@ -16,11 +16,12 @@ This project correspond to e-commerce model business
 
 - Data base  [link](https://drive.google.com/file/d/1-roXGWDPlr0gOjpaf6I1D34nAhykGmfo/view?usp=sharing)
 
-- Flowchart [link]()
 
 ## Installation
 
-The system requires at least python3.8 to be executed.
+###Requirements 
+- Python3.8
+- Rabbit MQ port 5672 
 
 ## Usage
 
@@ -37,6 +38,12 @@ Run migrations
 python manage.py migrate
 ```
 
+Run project
+
+```
+python manage.py runserver 
+```
+
 Run celery 
 
 ```
@@ -48,4 +55,12 @@ Run the test
 ```
 python manage.py test
 ```
+
+# API Documentation in Redoc 
+
+http://127.0.0.1:8000/redoc 
+
+## SQL showing the paid orders 
+
+Is located in query.sql file
 
